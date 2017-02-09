@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,Chrome=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>登录注册页</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/login.css">
+  <script src="js/jquery-1.11.3.min.js"></script>
+  <script type="text/javascript">
+  
+  
+    $(document).ready(function(){
+      var screenHeight=window.innerHeight|| document.documentElement.clientHeight || document.body.clientHeight;
+      var screenWidth=window.innerWidth|| document.documentElement.clientWidth || document.body.clientWidth;
+      var container1Height=$(".container1").height();      
+      var container1Width=$(".container1").outerWidth();
+      console.log(container1Width);
+      $(".container1").css({
+        "margin-top": (screenHeight-container1Height)/2,
+        "margin-left":(screenWidth-container1Width)/2
+      });
+      /*console.log($(".container1").css("margin-left"));
+      console.log($(".container1").css("margin-right"));*/
+    });
+  </script>
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="//cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="//cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+	<div class="container1 col-md-3 col-ms-6 col-xs-10">
+			<h1>HI.</h1>
+			<form class="form">
+  				<div class="form-group">
+    				<label class="sr-only" for="exampleInputAmount">账号</label>
+    				<div class="input-group  has-error">
+      					<div class="input-group-addon"><img src="images/user.png" alt=""></div>
+      					<input type="text" class="form-control" id="exampleInputAmount" placeholder="">
+    				</div>
+  				</div>
+  				<div class="form-group">
+    				<label class="sr-only" for="exampleInputAmount">密码</label>
+    				<div class="input-group has-psd">
+      					<div class="input-group-addon"><img src="images/password.png" alt=""></div>
+      					<input type="password" class="form-control" id="exampleInputAmount" placeholder="">
+    				</div>
+  				</div>
+  				<button type="button" class="btn btn-info btn-lg btn-block">登&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp录</button>
+				  <a class="btn btn-danger btn-lg btn-block" href="#" title="">注&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp册</a>
+			</form>
+	</div>
+	
+</body>
+</html>

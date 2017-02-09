@@ -1,0 +1,123 @@
+
+.mF_liuzg {
+	background: rgb(255, 255, 255); 
+	font: 12px/1.5 Verdana, Geneva; 
+	margin: 30px auto; 
+	/*width: 640px; */
+	height: 465px; 
+	overflow: hidden;
+	position: relative; 
+	font-size-adjust: none; 
+	font-stretch: normal;
+}
+.mF_liuzg .loading {
+	background: rgb(44, 44, 44); 
+	/*width: 100%; */
+	height: 370px; 
+	text-align: center; 
+	color: rgb(255, 255, 255); 
+	line-height: 370px; 
+	vertical-align: middle; 
+	position: absolute; 
+	z-index: 9999;
+}
+.mF_liuzg .pic li {
+	/*width: 640px; */
+	overflow: hidden; 
+	position: relative;
+}
+.mF_liuzg .pic li p {
+	/*width: 640px; */
+	position: absolute;
+}
+.mF_liuzg .pic li p a {
+	display: block;
+}
+.mF_liuzg .pic li p img {
+	/*width: 640px; */
+	height: 370px;
+	width: 100%;
+	height: auto;
+}
+.mF_liuzg .txt li {
+	/*width: 640px; */
+	width: 100%;
+	height: 80px; 
+	bottom: 0px; 
+	line-height: 20px; 
+	overflow: hidden; 
+	display: none; 
+	position: absolute; 
+	/*position: relative;*/
+	z-index: 2;
+}
+.mF_liuzg .txt li a{
+	padding: 2px 0px 0px 1px; 
+	color: black; 
+	font-size: 14px; 
+	font-weight: bold; 
+	text-decoration: none; 
+	display: block;
+}
+.mF_liuzg .txt-bg {
+	margin-left: 15px;
+	margin-right: 15px;
+	/*background: rgb(51, 51, 51); */
+	left: 1px; 
+	width: 100%;
+	/*width: 640px; */
+	height: 80px; 
+	bottom: 0px; 
+	overflow: hidden; 
+	filter: alpha(opacity=60); 
+	position: absolute; 
+	/*position: relative;*/
+	z-index: 1; 
+	/*opacity: 0.6;*/
+}
+.mF_liuzg .num {
+	right: 20px; 
+	bottom: 100px; 
+	color: rgb(51, 51, 51); 
+	position: absolute; 
+	z-index: 3;
+}
+.mF_liuzg .num li {
+	overflow: hidden;
+	border-radius: 14px;
+	background: rgb(67, 67, 67); 
+	width: 14px; 
+	height: 14px; 
+	text-align: center; 
+	color: rgb(255, 255, 255); 
+	line-height:40px; 
+	margin-right: 3px; 
+	float: left; 
+	filter: alpha(opacity=90); 
+	position: relative; 
+	cursor: pointer; 
+	opacity: 0.9;
+	list-style: none;
+}
+.mF_liuzg .num li.current {
+	background: rgb(254, 0, 114); 
+	top: -2px; 
+	height: 15px;
+	color: rgb(255, 255, 255); 
+	line-height: 40px; 
+	font-weight: bold;
+	border-radius: 15px;
+}
+.mF_liuzg .num li.hover {
+	background: rgb(254, 0, 114); 
+	top: -2px; height: 20px; 
+	color: rgb(255, 255, 255); 
+	line-height: 20px; 
+	font-weight: bold;
+}
+.pic,.txt,.txt-bg{
+	padding: 0px;
+}
+.txt-bg{
+	margin-bottom: 0px;
+}

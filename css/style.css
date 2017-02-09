@@ -1,0 +1,182 @@
+*{
+    font-family: "微软雅黑";
+}
+html{
+    overflow-x: hidden;
+}
+header{
+	background-color: #665344;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #ddd;
+}
+.navbar-default {
+    background-color: #665344;
+    border: 0px solid;
+}
+.navbar {
+    position: relative;
+    min-height: 70px;
+    margin-bottom: 0px;
+}
+.navbar-brand {
+    float: left;
+    height: 70px;
+    padding: 15px 15px;
+    font-size: 18px;
+    line-height: 70px;
+}
+.navbar-nav>li>a {
+    line-height: 50px;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    color: white;
+    background-color: #ff7f66;
+    font-size: 1.5em;
+    text-decoration: underline;
+}
+.navbar-default .navbar-nav>li>a {
+    color: white;
+    font-size: 1.5em;
+}
+.navbar-toggle:hover,.navbar-toggle:focus{
+    background-color: #665344;
+}
+.navbar-default .navbar-nav>li>a:hover{
+    background-color: #D0715E;
+}
+.navbar-default .navbar-toggle:hover{
+    background-color: #877463;
+}
+.navbar-default .navbar-toggle:focus{
+    background-color: transparent;
+}
+.nav>li>a {
+    position: relative;
+    display: block;
+    padding: 10px 30px;
+}
+.nav>li>a:hover{
+    color: #737272;
+}
+
+.tab-content>.tab-pane>.col-md-12>h2{
+    color: #665344;
+    font-weight: bold;
+}
+.post-sort{
+	background-color: #877463;
+}
+.post-sort>li>a {
+    text-align: center;
+    position: relative;
+    display: block;
+    padding: 0px 30px;
+    color: white;
+    font-weight: bold;
+}
+.post-sort>a{
+    position: relative;
+    display: block;
+    padding: 0px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+.login-btn{
+	border-bottom: 1px solid #877463;
+}
+
+.tab-content{
+	background-color: #ebebeb;
+}
+.tab-content>.active {
+    display: block;
+    min-height: 620px;
+}
+/*轮播*/
+.carousel{
+    border: 14px solid #fafafa;
+}
+.carousel-caption{
+	background-color: #fafafa;
+	position: relative;
+}
+.carousel-control.left{
+	background-image: none;
+}
+.carousel-control.right{
+	background-image: none;
+}
+.carousel-caption p{
+	text-align: left;
+	color: black;
+}
+.carousel-inner>a:hover{
+    text-decoration: none;
+}
+/* .glyphicon-chevron-left:before {
+    content: none;
+}
+.glyphicon-chevron-right:before {
+    content: none;
+} */
+@media screen and (min-width: 768px){
+	.carousel-indicators {
+		position: absolute;
+    	bottom: 70px;
+    }
+    .carousel-caption {
+    /* right: 20%; */
+    /* left: 20%; */
+    	padding-bottom: 30px;
+	}
+}
+
+.carousel-caption {
+    /* right: 15%; */
+     bottom: 0px; 
+    left: 0;
+    z-index: 10;
+    /* padding-top: 20px; */
+    padding-bottom: 0px;
+    color: #fff;
+    text-align: center;
+    text-shadow: 0 1px 2px rgba(0,0,0,.6);
+}
+.carousel-indicators{
+	margin-left: 0px;
+}
+.carousel-indicators .active {
+    width: 12px;
+    height: 12px;
+    margin: 0;
+    background-color: #fff;
+}
+.image-border{
+        text-align: center;
+	background-color: #fafafa;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 10px;
+}
+.image-border p{
+    color: black;
+	font-size: 1em;
+    text-align: center;
+}
+.image-border a:hover{
+    text-decoration: none;
+}
+.little-post{
+	margin: 5px;
+}
+.col-md-2>.image-border>img{
+    max-width: 100%;
+}
+footer{
+    background-color: #665344;
+}
+footer p{
+    color: white;
+}

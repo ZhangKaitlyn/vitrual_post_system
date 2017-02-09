@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+  <title>首页</title>
+
+  <!-- Bootstrap -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/slide.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  
+  <script type="text/javascript" src="js/respond.min.js"></script>
+  <script src="js/jquery-1.11.3.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/slide.js"></script>
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+  <script src="//cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+  <script src="//cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+  <header id="header" class="">
+    <nav class="navbar navbar-default">
+      <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">
+            <img src="images/logo.png" height="48" width="140" alt="华侨大学logo"></a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+            <li class="active">
+              <a href="#">
+                首页
+                <span class="sr-only">(current)</span>
+              </a>
+            </li>
+            <li>
+              <a href="#">海报分类</a>
+            </li>
+            <li>
+              <a href="#">关于我们</a>
+            </li>
+          </ul>
+        </div>
+        <!-- /.navbar-collapse --> </div>
+      <!-- /.container-fluid --> </nav>
+  </header>
+  <!-- /header -->
+  <!-- 海报分类tab切换 -->
+  <div>
+    <!-- Nav tabs -->
+    <ul class="nav nav-tabs post-sort col-md-11" role="tablist">
+      <li role="presentation" class="active">
+        <a href="#hot" aria-controls="hot" role="tab" data-toggle="tab">火热推荐</a>
+      </li>
+      <li role="presentation">
+        <a href="#culture" aria-controls="profile" role="tab" data-toggle="tab">文化</a>
+      </li>
+      <li role="presentation">
+        <a href="#business" aria-controls="messages" role="tab" data-toggle="tab">商业</a>
+      </li>
+      <li role="presentation">
+        <a href="#gym" aria-controls="settings" role="tab" data-toggle="tab">体育</a>
+      </li>
+      <li role="presentation">
+        <a href="#recruit" aria-controls="settings" role="tab" data-toggle="tab">招募</a>
+      </li>
+      <li role="presentation">
+        <a href="#welfare" aria-controls="home" role="tab" data-toggle="tab">公益</a>
+      </li>
+      <li role="presentation">
+        <a href="#theme" aria-controls="profile" role="tab" data-toggle="tab">主题团日</a>
+      </li>
+      <li role="presentation">
+        <a href="#science" aria-controls="messages" role="tab" data-toggle="tab">科技</a>
+      </li>
+      <li role="presentation">
+        <a href="#other" aria-controls="settings" role="tab" data-toggle="tab">其他</a>
+      </li>
+    </ul>
+    <div class="col-md-1 post-sort login-btn">
+      <a href="#" title="">后台登录</a>
+    </div>
+
+  </div>
+  <!-- Tab panes -->
+  <div class="tab-content col-md-12">
+    <div role="tabpanel" class="tab-pane active" id="hot">
+      <div class="col-md-12">
+        <h2>最新活动.</h2>
+      </div>
+
+      <div class="col-md-3">
+        <!-- 轮播 -->
+        <div id="myFocus" class="mF_liuzg col-md-12">
+          <div class="loading col-md-12">
+            <span>请稍候...</span>
+          </div>
+          <ul class="pic col-md-12">
+            <li class="col-md-12">
+              <a href="http://js.itobe.cn/" target="_blank">
+                <img src="images/bigPost.jpg">
+              </a>
+              <span class="txt-bg">
+                <a href="#">
+                  全国辅导员马拉松大赛1 <br/>9.5~9.7 <br/>华侨大学田径场
+                </a>
+              </span>
+            </li>
+            <li class="col-md-12">
+              <a href="http://js.itobe.cn/" target="_blank">
+                <img src="images/bigPost.jpg">
+              </a>
+              <span class="txt-bg">
+                <a href="#">全国辅导员马拉松大赛2 <br/>9.5~9.7 <br/>华侨大学田径场</a>
+              </span>
+            </li>
+            <li class="col-md-12">
+              <a href="http://js.itobe.cn/" target="_blank">
+                <img src="images/bigPost.jpg">
+              </a>
+              <span class="txt-bg">
+                <a href="#">全国辅导员马拉松大赛3 <br/>9.5~9.7 <br/>华侨大学田径场</a>
+              </span>
+            </li>
+            <li class="col-md-12">
+              <a href="http://js.itobe.cn/" target="_blank">
+                <img src="images/bigPost.jpg">
+              </a>
+              <span class="txt-bg">
+                <a href="#">全国辅导员马拉松大赛4 <br/>9.5~9.7 <br/>华侨大学田径场</a>
+              </span>
+            </li>
+            <li class="col-md-12">
+              <a href="http://js.itobe.cn/" target="_blank">
+                <img src="images/bigPost.jpg">
+              </a>
+              <span class="txt-bg">
+                <a href="#">全国辅导员马拉松大赛5 <br/>9.5~9.7 <br/>华侨大学田径场</a>
+              </span>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="col-md-9">
+        <div class="col-md-12">
+          <div class="container">
+            <div class="col-md-2 little-post">
+              <div class="image-border">
+                <a href="#" title="">
+                  <img class="col-md-12" src="images/img1.jpg" alt="">
+                  <p>全国计算机大赛</p>
+                  <p>7.23~12.25</p>
+                  <p>华侨大学紫四B栋六楼</p>
+                </a>
+              </div>
+            </div>
+            <div class="col-md-2 little-post">
+              <div class="image-border">
+                <a href="#" title="">
+                  <img class="col-md-12" src="images/img2.jpg" alt="">
+                  <p>全国计算机大赛</p>
+                  <p>7.23~12.25</p>
+                  <p>华侨大学紫四B栋六楼</p>
+                </a>
+              </div>
+            </div>
+            <div class="col-md-2 little-post">
+              <div class="image-border">
+                <a href="#" title="">
+                  <img class="col-md-12" src="images/img3.jpg" alt="">
+                  <p>全国计算机大赛</p>
+                  <p>7.23~12.25</p>
+                  <p>华侨大学紫四B栋六楼</p>
+                </a>
+              </div>
+            </div>
+            <div class="col-md-2 little-post">
+              <div class="image-border">
+                <a href="#" title="">
+                  <img class="col-md-12" src="images/img4.jpg" alt="">
+                  <p>全国计算机大赛</p>
+                  <p>7.23~12.25</p>
+                  <p>华侨大学紫四B栋六楼</p>
+                </a>
+              </div>
+            </div>
+            <div class="col-md-2 little-post">
+              <div class="image-border">
+                <a href="#" title="">
+                  <img class="col-md-12" src="images/img5.jpg" alt="">
+                  <p>全国计算机大赛</p>
+                  <p>7.23~12.25</p>
+                  <p>华侨大学紫四B栋六楼</p>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-12">
+          <div class="container">
+            <div class="col-md-2 little-post">
+              <div class="image-border">
+                <a href="#" title="">
+                  <img class="col-md-12" src="images/img3.jpg" alt="">
+                  <p>全国计算机大赛</p>
+                  <p>7.23~12.25</p>
+                  <p>华侨大学紫四B栋六楼</p>
+                </a>
+              </div>
+            </div>
+            <div class="col-md-2 little-post">
+              <div class="image-border">
+                <a href="#" title="">
+                  <img class="col-md-12" src="images/img2.jpg" alt="">
+                  <p>全国计算机大赛</p>
+                  <p>7.23~12.25</p>
+                  <p>华侨大学紫四B栋六楼</p>
+                </a>
+              </div>
+            </div>
+            <div class="col-md-2 little-post">
+              <div class="image-border">
+                <a href="#" title="">
+                  <img class="col-md-12" src="images/img1.jpg" alt="">
+                  <p>全国计算机大赛</p>
+                  <p>7.23~12.25</p>
+                  <p>华侨大学紫四B栋六楼</p>
+                </a>
+              </div>
+            </div>
+            <div class="col-md-2 little-post">
+              <div class="image-border">
+                <a href="#" title="">
+                  <img class="col-md-12" src="images/img5.jpg" alt="">
+                  <p>全国计算机大赛</p>
+                  <p>7.23~12.25</p>
+                  <p>华侨大学紫四B栋六楼</p>
+                </a>
+              </div>
+            </div>
+            <div class="col-md-2 little-post">
+              <div class="image-border">
+                <a href="#" title="">
+                  <img class="col-md-12" src="images/img4.jpg" alt="">
+                  <p>全国计算机大赛</p>
+                  <p>7.23~12.25</p>
+                  <p>华侨大学紫四B栋六楼</p>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-12">
+          <div class="container">
+            <div class="col-md-2 little-post">
+              <div class="image-border">
+                <a href="#" title="">
+                  <img class="col-md-12" src="images/img5.jpg" alt="">
+                  <p>全国计算机大赛</p>
+                  <p>7.23~12.25</p>
+                  <p>华侨大学紫四B栋六楼</p>
+                </a>
+              </div>
+            </div>
+            <div class="col-md-2 little-post">
+              <div class="image-border">
+                <a href="#" title="">
+                  <img class="col-md-12" src="images/img4.jpg" alt="">
+                  <p>全国计算机大赛</p>
+                  <p>7.23~12.25</p>
+                  <p>华侨大学紫四B栋六楼</p>
+                </a>
+              </div>
+            </div>
+            <div class="col-md-2 little-post">
+              <div class="image-border">
+                <a href="#" title="">
+                  <img class="col-md-12" src="images/img3.jpg" alt="">
+                  <p>全国计算机大赛</p>
+                  <p>7.23~12.25</p>
+                  <p>华侨大学紫四B栋六楼</p>
+                </a>
+              </div>
+            </div>
+            <div class="col-md-2 little-post">
+              <div class="image-border">
+                <a href="#" title="">
+                  <img class="col-md-12" src="images/img2.jpg" alt="">
+                  <p>全国计算机大赛</p>
+                  <p>7.23~12.25</p>
+                  <p>华侨大学紫四B栋六楼</p>
+                </a>
+              </div>
+            </div>
+            <div class="col-md-2 little-post">
+              <div class="image-border">
+                <a href="#" title="">
+                  <img class="col-md-12" src="images/img1.jpg" alt="">
+                  <p>全国计算机大赛</p>
+                  <p>7.23~12.25</p>
+                  <p>华侨大学紫四B栋六楼</p>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div role="tabpanel" class="tab-pane" id="culture">文化</div>
+    <div role="tabpanel" class="tab-pane" id="business">商业</div>
+    <div role="tabpanel" class="tab-pane" id="gym">体育</div>
+    <div role="tabpanel" class="tab-pane" id="recruit">招募</div>
+    <div role="tabpanel" class="tab-pane" id="welfare">公益</div>
+    <div role="tabpanel" class="tab-pane" id="theme">主题团日</div>
+    <div role="tabpanel" class="tab-pane" id="science">科技</div>
+    <div role="tabpanel" class="tab-pane" id="other">其他</div>
+  </div>
+  <footer class="col-md-12">
+    <div class="col-md-5 col-md-offset-7">
+      <p>泉州校区地址：福建省泉州市丰泽区城华北路269号 电话：0595-22691947</p>
+      <p>厦门校区地址：福建省厦门市集美区集美大道668号 电话：0592-6160000</p>
+    </div>
+
+  </footer>
+</body>
+</html>
